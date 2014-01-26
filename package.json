@@ -1,0 +1,36 @@
+{
+	"name" : "nirc",
+	"private" : true,
+	"version" : "0.0.1",
+	"main" : "./lib/server",
+	"description" : "Node.js based Internet Relay Chat server",
+	"keywords" : [ "TODO" ],
+	"homepage" : "https://github.com/SpiderMatt3825U/nirc",
+	"author" : {
+		"name" : "ITelliTech",
+		"email" : "nirc@itellitech.org"
+	},
+	"contributors" : [
+		{
+			"name" : "SpiderMatt",
+			"email" : "spidermatt@itellitech.me"
+		}
+	],
+	"repository": "git://github.com/SpiderMatt3825U/nirc.git",
+	"licenses": [
+		{
+			"type": "GPL",
+			"url": "https://raw.github.com/SpiderMatt3825U/nirc/master/LICENSE"
+		}
+	],
+	"engines": {
+		"node": ">= 0.2.0"
+	},
+	"dependencies" : {
+		"carrier" : ">= 0.1.13",
+		"socket.io" : ">= 0.9.16"
+	},
+	"bin": {
+		"nirc": "bin/nirc"
+	},
+}
